@@ -35,7 +35,6 @@ pip install -r requirements.txt
    ```bash
    pip install .
    pip show myPP
-   python -c "import myPP;myPP.show_message_box()"
    ```
 ## test the installtion 
 
@@ -47,7 +46,7 @@ pip install -r requirements.txt
 
    ```bash
    pip show myPP
-   pip uininstall myPP
+   pip uninstall myPP
    ```
  
 2. Run the application:
