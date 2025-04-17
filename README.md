@@ -4,7 +4,7 @@ The package is a sample Python package that demonstrates a wxPython message box 
 
 ## the myPP project structure 
 Here's how to build a simple Python project using the src/ layout, and use setuptools with a setup.py file to create a command-line executable.
-
+```
 myPP_project/
 ├── src/
 │   └── myPP/
@@ -20,7 +20,7 @@ myPP_project/
 ├── README.md
 └── LICENSE
 └── requirements.txt
-
+```
 ## Before installing
 Before installing the myPP project you may run this to install the required packages.
 Usually pip install the required packages mentionned in the pyproject.toml
