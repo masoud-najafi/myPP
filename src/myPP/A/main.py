@@ -1,10 +1,11 @@
-import wx
+import wx, sys
 from myPP.B.helper import get_message
 
 def show_message_box():
-    app = wx.App(False)
     message = get_message()
-    wx.MessageBox(message, "MyPP Message", wx.OK | wx.ICON_INFORMATION)
+    msg=f"{message} \nsys.argv:{sys.argv}"
+    app = wx.App(False)
+    wx.MessageBox(msg, f"MyPP Message", wx.OK | wx.ICON_INFORMATION)
     app.MainLoop()
 
 if __name__ == "__main__":

@@ -28,6 +28,22 @@ Usually pip install the required packages mentionned in the pyproject.toml
 pip install -r requirements.txt
 ```
 
+## testing the code without installing
+
+you need to give the path of the uninstalled package to be used by Python
+
+```bash
+#method 1) without changing PYTHONPATH
+cd D:\ttx\myPP\src
+python -m  myPP.A.main  arg1 arg2
+```
+
+```bash
+#method 2) with  changing PYTHONPATH
+set PYTHONPATH=%PYTHONPATH%;D:\ttx\myPP\src
+python D:\ttx\myPP\src\myPP\A\main.py  arg1 arg2
+```
+
 
 ## Installation
 
@@ -64,3 +80,6 @@ python setup_myPP.py bdist_msi
 ```
 
 The executable will be created in the `build` directory.
+
+
+## running the
