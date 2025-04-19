@@ -9,5 +9,5 @@ def show_message_box():
     app.MainLoop()
 
 if __name__ == "__main__":
-    print('main.py has been called')
+    print('main.py has been called.') 
     show_message_box()

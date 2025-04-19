@@ -41,12 +41,11 @@ python -m  myPP         arg1 arg2 # good:     __main__.py is called and executed
 ```
 
 ```bash
-#method 2) with  changing PYTHONPATH
+#method 2) WITH  changing PYTHONPATH
 set PYTHONPATH=%PYTHONPATH%;D:\ttx\myPP\src
 python D:\ttx\myPP\src\myPP\A\main.py    arg1 arg2 #main.py has been called
 python D:\ttx\myPP\src\myPP\__main__.py  arg1 arg2 # __main__.py has been called.
 ```
-
 
 ## Installation
 
@@ -61,6 +60,7 @@ python D:\ttx\myPP\src\myPP\__main__.py  arg1 arg2 # __main__.py has been called
    pip show myPP
    python -c "import myPP;myPP.show_message_box()"
 
+   python -m  myPP  arg1 arg2 # good:     __main__.py is called and executed
 
    ```
 ## uninstalling the project on the machine 
