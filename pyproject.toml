@@ -24,5 +24,8 @@ classifiers = [
 ]
 
 [project.scripts]
-myPP = "myPP.A.main:show_message_box"
- 
+myPP_cli = "myPP.__main__:mymain"
+# The mypp.exe (or mypp script) is installed in Python's Scripts folder. Locate it by running
+#python -c "import sys; print(sys.executable)"
+#C:\Users\masoud\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\myPP.exe
+#set PATH=%PATH%;C:\Path\to\Python\Scripts

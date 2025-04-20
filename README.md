@@ -63,6 +63,16 @@ python D:\ttx\myPP\src\myPP\__main__.py  arg1 arg2 # __main__.py has been called
    python -m  myPP  arg1 arg2 # good:     __main__.py is called and executed
 
    ```
+   Once installed with PIP, if you have defined a function  [project.scripts], 
+   an executable will be created in Script folder of you Python.
+   python -c "import sys; print(sys.executable)"
+   If you want to access to the executables of Python mackages, add the Scrips path to PATH.
+   YOUR-PYTHON-EXECUTABLE-FOLDER\LocalCache\local-packages\Python312\Scripts\myPP_cli.exe 
+
+   ```bash
+     myPP_cli.exe
+   ```
+
 ## uninstalling the project on the machine 
 
    ```bash
